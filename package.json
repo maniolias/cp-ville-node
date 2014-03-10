@@ -1,0 +1,24 @@
+{
+  "name": "cp-ville-node",
+  "version": "0.0.1",
+  "description": "Implémentation rapide de l'API de http://cp-ville.com pour node.js",
+  "main": "./lib/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maniolias/cp-ville-node.git"
+  },
+  "author": "Maniolias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maniolias/cp-ville-node/issues"
+  },
+  "homepage": "https://github.com/maniolias/cp-ville-node",
+  "keywords": [
+    "API",
+    "Code",
+    "postale"
+  ]
+}
