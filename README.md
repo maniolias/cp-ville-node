@@ -27,7 +27,7 @@ cpVille.find("69005",function(err,data)
 
 })
 
-cpVille.find("73",function(err,data)
+cpVille.find("pomp",function(err,data)
 {
 	if(err) console.log(err)
 	else
