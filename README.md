@@ -1,7 +1,7 @@
 #cp-ville-node
 =============
 
-Implémentation de l'API [cp-ville](http://cp-ville.com) pour node.js.
+Petite implémentation de l'API [cp-ville](http://cp-ville.com) pour node.js.
 
 ##Installation
 ```
