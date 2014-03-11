@@ -31,29 +31,29 @@ cpVille.find("pomp",function(err,data)
 {
 	if(err) console.log(err)
 	else
-		console.log(data.toArray())
+		console.log(data.toArray("cp"))
 
 	/*
-	*[ { ville: 'ARNAC POMPADOUR', cp: '19230' },
-	*{ ville: 'POMPORT', cp: '24240' },
-	*{ ville: 'ST POMPONT', cp: '24170' },
-	*{ ville: 'POMPIERRE SUR DOUBS', cp: '25340' },
-	*{ ville: 'POMPIGNAN', cp: '30170' },
-	*{ ville: 'POMPERTUZAT', cp: '31450' },
-	*{ ville: 'POMPIAC', cp: '32130' },
-	*{ ville: 'POMPEJAC', cp: '33730' },
-	*{ ville: 'POMPIGNAC', cp: '33370' },
-	*{ ville: 'POMPIEY', cp: '47230' },
-	*{ ville: 'POMPOGNE', cp: '47420' },
-	*{ ville: 'LE POMPIDOU', cp: '48110' },
-	*{ ville: 'POMPEY', cp: '54340' },
-	*{ ville: 'POMPS', cp: '64370' },
-	*{ ville: 'POMPONNE', cp: '77400' },
-	*{ ville: 'POMPAIRE', cp: '79200' },
-	*{ ville: 'ST POMPAIN', cp: '79160' },
-	*{ ville: 'POMPIGNAN', cp: '82170' },
-	*{ ville: 'POMPIERRE', cp: '88300' },
-	*{ ville: 'POMPIDOU PAPA ICHTON', cp: '97316' } ]
+	*[ { cp: '19230' },
+	*{ cp: '24240' },
+	*{ cp: '24170' },
+	*{ cp: '25340' },
+	*{ cp: '30170' },
+	*{ cp: '31450' },
+	*{ cp: '32130' },
+	*{ cp: '33730' },
+	*{ cp: '33370' },
+	*{ cp: '47230' },
+	*{ cp: '47420' },
+	*{ cp: '48110' },
+	*{ cp: '54340' },
+	*{ cp: '64370' },
+	*{ cp: '77400' },
+	*{ cp: '79200' },
+	*{ cp: '79160' },
+	*{ cp: '82170' },
+	*{ cp: '88300' },
+	*{ cp: '97316' } ]
 	*/
 })
 ```
