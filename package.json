@@ -1,6 +1,6 @@
 {
   "name": "cp-ville-node",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Petite implémentation de l'API de http://cp-ville.com pour node.js",
   "main": "./lib/main.js",
   "scripts": {
